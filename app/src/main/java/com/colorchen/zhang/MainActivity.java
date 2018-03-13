@@ -47,15 +47,15 @@ public class MainActivity extends AppCompatActivity {
 
     private List<UserEntity> getTestData() {
         List<UserEntity> list = new ArrayList<>();
-        list.add(new UserEntity("视频1","粉丝数：1000","金币数：99"
+        list.add(new UserEntity("视频1","粉丝数：1001","金币数：168"
+                ,"http://note.colorchen.com/video/zhang_001.mp4"
+                , "http://jzvd-pic.nathen.cn/jzvd-pic/2204a578-609b-440e-8af7-a0ee17ff3aee.jpg"));
+        list.add(new UserEntity("视频2","粉丝数：1001","金币数：555"
+                ,"http://note.colorchen.com/video/zhang_002.mp4"
+                , "http://jzvd-pic.nathen.cn/jzvd-pic/bd7ffc84-8407-4037-a078-7d922ce0fb0f.jpg"));
+        list.add(new UserEntity("视频3","粉丝数：1000","金币数：99"
                 ,"http://jzvd.nathen.cn/d2e969f2ec734520b46ab0965d2b68bd/f124edfef6c24be8b1a7b7f996ccc5e0-5287d2089db37e62345123a1be272f8b.mp4"
                 , "http://jzvd-pic.nathen.cn/jzvd-pic/3430ec64-e6a7-4d8e-b044-9d408e075b7c.jpg"));
-        list.add(new UserEntity("视频2","粉丝数：1001","金币数：168"
-                ,"http://jzvd.nathen.cn/4f965ad507ef4194a60a943a34cfe147/32af151ea132471f92c9ced2cff785ea-5287d2089db37e62345123a1be272f8b.mp4"
-                , "http://jzvd-pic.nathen.cn/jzvd-pic/2204a578-609b-440e-8af7-a0ee17ff3aee.jpg"));
-        list.add(new UserEntity("视频3","粉丝数：1001","金币数：555"
-                ,"http://jzvd.nathen.cn/4f965ad507ef4194a60a943a34cfe147/32af151ea132471f92c9ced2cff785ea-5287d2089db37e62345123a1be272f8b.mp4"
-                , "http://jzvd-pic.nathen.cn/jzvd-pic/bd7ffc84-8407-4037-a078-7d922ce0fb0f.jpg"));
         list.add(new UserEntity("视频4","粉丝数：1001","金币数：888"
                 ,"http://jzvd.nathen.cn/f07fa9fddd1e45a6ae1570c7fe7967c1/c6db82685b894e25b523b1cb28d79f2e-5287d2089db37e62345123a1be272f8b.mp4"
                 , "http://jzvd-pic.nathen.cn/jzvd-pic/f2dbd12e-b1cb-4daf-aff1-8c6be2f64d1a.jpg"));
